@@ -1,5 +1,6 @@
+# This class is mainly for attaching a file to a message
+
 from flask import Flask
-#from email.message import EmailMessage
 import os
 
 class Attachment:
