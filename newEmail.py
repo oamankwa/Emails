@@ -1,3 +1,4 @@
+# This file is use to test sending emails and attaching files  
 from flask import Flask
 import ssl
 import smtplib
@@ -9,16 +10,15 @@ app = Flask(__name__)
 
 Host = 'smtp.gmail.com'
 Port = 465
-Email_Sender = 'amankwaoedward@gmail.com' 
-Email_Password = 'uqkuektwutoscnzx'
+Email_Sender = 'yoursender.com' 
+Email_Password = 'yourpassword'
 Subject = 'Testing Email'
 Body = 'I am testing my new email'
-From_email = 'amankwaoedward@gmail.com'
-To_email = 'eoamankwa@gmail.com'
+From_email = 'youraddress@gmail.com'
+To_email = 'tomail@gmail.com'
 
 
 
-#'ihntfchfcfidekzf'uqkuektwutoscnzx dpacjpvgkynfhkjy
 mymessage = Createmessage(Subject, Body)
 msg = mymessage.write_email()
 
