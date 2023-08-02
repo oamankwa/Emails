@@ -1,8 +1,8 @@
 from flask import Flask 
 from email.message import EmailMessage
 
-#create a test message to be uesd in sending email
-class create_message:
+#create a html message to be uesd in sending email
+class createhtmlmessage:
 
     #create variables
     SUBJECT = ''
