@@ -2,7 +2,7 @@ from flask import Flask
 from email.message import EmailMessage
 
 #create a html message to be uesd in sending email
-class createhtmlmessage:
+class Createhtmlmessage:
 
     #create variables
     SUBJECT = ''
@@ -14,7 +14,7 @@ class createhtmlmessage:
         self.BODY = body
 
     #Write an  email 
-    def write_email(self, from_email, to_email):
+    def write_html_email(self, from_email, to_email):
         msg = EmailMessage()
         msg['Subject'] = self.SUBJECT
         msg['from'] = from_email
