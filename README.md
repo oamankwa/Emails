@@ -6,6 +6,8 @@ With these objects the server can send emails using smtp protocal. Always creati
 
 To send an email by text the object Createmessage from messageText.py is use. This class imports EmailMessage from email.message and is instaniate with the subject and body of the email. It has only one method write_email which instaniate the EmailMessage model to msg and it calls its msg.subject variable and store the Createmessage subject in it. The 'to' and 'from' parameters are stored in msg variables. Also, msg.set_content method takes the Createmessage body as a parameter.
 
+Html emails are send ny the object Createhtmlmessage from messageHtml.py. This class imports EmailMessage from email.message and is instaniate with the subject and body of the email. It has only one method write_email which instaniate the EmailMessage model to msg and it calls its msg.subject variable and store the Createmessage subject in it. The 'to' and 'from' parameters are stored in msg variables. Also, msg.set_content method takes the Createmessage body as a parameter.
+
 
 
 **Features**
