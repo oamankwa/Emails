@@ -11,7 +11,7 @@ Html emails are send ny the object Createhtmlmessage from messageHtml.py. This c
 Attachments to an email is perform by this object which found in the attach.py file. It can be used by setting an instance of the object which adds a list of files as it parameter. It has only one method named attach which have maintype, subtype and, msg as parameters. The attach function loops through the list and if the files are images a maintype and subtype are set differently else they are set to the types from the parameters. The parameter msg calls it add_attachment method to attach file to the message.
 
 **Features**
-* Different types of files can be attach at the same time.
+* Different types of files can be attached at the same time.
 * The list can contain only one file for attachment instead of a new fuction for it.
 * Html messages can be created and sent.
 * Emails can be sent to different receipents at the same.
