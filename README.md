@@ -18,4 +18,9 @@ Attachments to an email is perform by this object which is found in the attach.p
 
 **How to use**
 
+Create a message by initializing the create massage object you want with subject and body as parameters. if you want to attach a file or files you should instaniate the attachment model with a list of files or file. Check out newEmail.py to see how to use the objects.
+
 **Links**
+
+* Gmail smpt settings https://www.gmass.co/blog/gmail-smtp/
+* Python documentation https://docs.python.org/3/library/smtplib.html
