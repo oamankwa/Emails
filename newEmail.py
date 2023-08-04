@@ -22,7 +22,7 @@ mymessage = Createmessage(Subject, Body)
 msg = mymessage.write_email()
 
 #attach files to message
-mylist = ['newexcell.xlsx', 'edward.jpg', 'newtext.txt', 'Resume.pdf']
+mylist = ['newexcell.xlsx', 'picture.jpg', 'newtext.txt', 'yourresume.pdf']
 myattachment = Attachment(mylist)
 myattachment.attech('application','octet-stream',msg)
 context = ssl.create_default_context()
